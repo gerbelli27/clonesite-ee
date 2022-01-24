@@ -31,3 +31,17 @@
     color: var(--branco);
     border-color: var(--branco);
 }
+
+.botao-quadrado{
+    background-color: transparent;
+    text-align: center;
+    font-family: inherit;
+    font-weight: var(--peso-botao);
+    color: var(--verde);
+    width: 100%;
+    padding: 1rem 1rem;
+    
+    
+    border-style: none;
+    box-shadow:  0 0 0.7em var(--preto-transparente);
+}
