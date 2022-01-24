@@ -1,0 +1,27 @@
+@import url(_variables.css);
+@import url(_reset.css);
+
+
+body{
+    font-family:var(--familia-corpo);
+    font-size: var(--tamanho-corpo);
+    color:var(--branco-fundo);
+    
+}
+
+.titulo{
+    font-size: var(--tamanho-titulo);
+    font-weight: var(--peso-titulo);
+    font-family: var(--familia-corpo);
+}
+.titulo--destaque{
+    font-family: var(--familia-titulo-destaque);
+    color: #000000;
+    font-size: var(--tamanho-titulo-destaque);
+    font-weight: var(--peso-titulo-destaque);
+
+    display: block;
+
+    margin-top: .75rem;
+    margin-bottom: .75rem;
+}
