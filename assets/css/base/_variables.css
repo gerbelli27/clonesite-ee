@@ -2,31 +2,20 @@
     font-family: 'ee_nobbleelight';
     src: url('../../fonts/webfontkit-20220124-051547/nobblee_light.woff') format('woff2'),
          url('../../fonts/webfontkit-20220124-051547/nobblee_light.woff2') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
 }
 
 @font-face {
     font-family: 'rubriksemibold';
     src: url('../../fonts/webfontkit-20220124-051547/rubrik_semibold.woff') format('woff2'),
          url('../../fonts/webfontkit-20220124-051547/rubrik_semibold.woff2') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
 }
-
-@font-face {
-    font-family: 'icones';
-    src: url('../../fonts/icones.ttf');
-}
-
 :root{
     --verde: #007B85;
     --amarelo: #FFE600;
     --branco: #FFFFFF;
     --branco-fundo: #F6F4F0;
     --cinza-footer: #3C3D41;
+    --preto: #000000;
     --preto-transparente: #0000002c;
 
     --familia-corpo: 'rubriksemibold', sans-serif;

@@ -26,20 +26,23 @@ body{
 
 .cabecalho{
     background-color: var(--verde);
-    padding: 0.1rem;
+    padding: 0.2rem;
    
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.cabecalho__icone-lateral{
-    
+.cabecalho__icone-lateral {
+    margin-left: 1rem;
+    font-size: 24px;
 }
 
 .cabecalho__logo{
     align-self: center;
+    width: 32px;
+    height: 55px;
 }
 
 .botao-login{
-    margin-right: 0.3rem;
+    margin-right: 0.7rem;
 }
