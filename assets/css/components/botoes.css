@@ -1,0 +1,33 @@
+.botao{
+    background-color: transparent;
+    text-align: center;
+    font-family: inherit;
+    font-weight: var(--peso-botao);
+    color: var(--verde);
+    width: 100%;
+    padding: 1rem 1rem;
+    
+    border-color: var(--verde);
+    border-style: solid;
+    border-radius: 50px;
+    border-width: 1.5px;
+
+}
+
+.botao-verde{
+    background-color: var(--verde);
+    color: var(--branco);
+    border-style: none;
+}
+
+.botao-amarelo{
+    background-color: var(--amarelo);
+    color: var(--cinza-footer);
+    border-style: none;
+}
+
+.botao-transparente{
+    background-color: transparent;
+    color: var(--branco);
+    border-color: var(--branco);
+}

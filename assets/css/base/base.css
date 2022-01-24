@@ -1,13 +1,11 @@
 @import url(_variables.css);
 @import url(_reset.css);
-
+@import url(../../css/components/botoes.css);
 
 body{
     font-family:var(--familia-corpo);
     font-size: var(--tamanho-corpo);
-    color:var(--branco-fundo);
-    
-}
+    color:var(--branco-fundo);}
 
 .titulo{
     font-size: var(--tamanho-titulo);

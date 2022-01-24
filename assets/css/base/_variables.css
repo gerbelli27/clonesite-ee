@@ -16,6 +16,11 @@
 
 }
 
+@font-face {
+    font-family: 'icones';
+    src: url('../../fonts/icones.ttf');
+}
+
 :root{
     --verde: #007B85;
     --amarelo: #FFE600;
