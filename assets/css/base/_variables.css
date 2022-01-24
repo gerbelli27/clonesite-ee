@@ -1,4 +1,9 @@
 @font-face {
+    font-family: 'icones';
+    src: url('../../fonts/webfontkit-20220124-051547/icones.ttf') format('woff');
+}
+
+@font-face {
     font-family: 'ee_nobbleelight';
     src: url('../../fonts/webfontkit-20220124-051547/nobblee_light.woff') format('woff2'),
          url('../../fonts/webfontkit-20220124-051547/nobblee_light.woff2') format('woff');
@@ -18,7 +23,7 @@
     --preto: #000000;
     --preto-transparente: #0000002c;
 
-    --familia-corpo: 'rubriksemibold', sans-serif;
+    --familia-corpo: 'rubriksemibold', 'icones', sans-serif;
     --familia-titulo-destaque: 'ee_nobbleelight', sans-serif;
     --peso-titulo: 400;
     --peso-titulo-destaque: normal;

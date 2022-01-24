@@ -49,10 +49,7 @@
 .botao-login{
     background-color: var(--amarelo);
     color: var(--preto);
-    font-weight: var(--peso-botao);
     width: 70px;
-    height: 40px;
+    height: 43px;
     border-radius: 5px;
-
-
 }

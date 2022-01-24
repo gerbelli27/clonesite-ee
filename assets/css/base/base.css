@@ -27,22 +27,55 @@ body{
 .cabecalho{
     background-color: var(--verde);
     padding: 0.2rem;
-   
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
     align-items: center;
-    justify-content: space-between;
+    
+    grid-template-areas: 
+    "menu logo busca login"
+    ;
+    
+    
+    
 }
 .cabecalho__icone-lateral {
     margin-left: 1rem;
     font-size: 24px;
+    grid-area: menu;
+    justify-self: left;
 }
 
+.cabecalho__icone-lateral i::before{
+    content: "\e904";
+    font-size: 32px;
+    color: #ffffff;
+
+    
+}
+
+
 .cabecalho__logo{
-    align-self: center;
     width: 32px;
     height: 55px;
+    justify-self: right;
+
+    grid-area: logo;
 }
 
 .botao-login{
     margin-right: 0.7rem;
+    font-size: 1rem;
+    grid-column: 4;
+    justify-self: right;
+
+    grid-area: login;
+}
+
+.buscar{
+    
+    grid-area: busca;
+    justify-self: center;
+    margin-left: 1.75rem;
+    
 }
