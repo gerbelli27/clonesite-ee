@@ -23,3 +23,23 @@ body{
     margin-top: .75rem;
     margin-bottom: .75rem;
 }
+
+.cabecalho{
+    background-color: var(--verde);
+    padding: 0.1rem;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cabecalho__icone-lateral{
+    
+}
+
+.cabecalho__logo{
+    align-self: center;
+}
+
+.botao-login{
+    margin-right: 0.3rem;
+}
