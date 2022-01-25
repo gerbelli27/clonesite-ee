@@ -1,33 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CLONE SITE | EE</title>
     <link rel="stylesheet" href="./assets/css/base/base.css">
+    <link rel="stylesheet" href="./assets/css/base/style.css">
 </head>
+
 <body>
-<header class="cabecalho">
-    <button class="cabecalho__icone-lateral"><a href="#"><i></i></a></button>
-    <a class="cabecalho__logo" href="#"><img src="./assets/img/logo.jpg" alt="Logo"></a>
-    <a class="buscar" href="#"><img src="./assets/img/search_white_36dp.svg" alt="Buscar"></a>
-    <button class="botao-login"><a href="#">Log in</a></button>   
-</header>
-
-<div class="cabecalho__buscar">
-
-    <input class="input-busca" type="text" id="search" name="Search">
     
-</div>
-
-
-
-    <nav class="menu__mobile">
+    <header class="cabecalho">
+            <div class="links__destaque">
+                <a href="#" class="personal">Personal</a>
+                <a href="#" class="cabecalho__links destaque">Business</a>
+            </div>
+            <div><a href="#" class="cabecalho__links">Store Finder</a>
+                <a href="#" class="cabecalho__links">Check coverage and network status</a>
+                <a href="#" class="cabecalho__links">contat EE</a></div>
+        </header>
+    <nav class="menu">
         <ul class="menu__mobile--lista">
-            <li class="menu__mobile--itens">
+            <li class="logo">
                 <a href="#">
-                    <img src="../clonesite-ee/assets/img/logo-verde.png" alt="">
+                    <img src="../clonesite-ee/assets/img/logo.jpg" alt="">
                 </a>
             </li>
             <li class="menu__mobile--itens">
@@ -40,8 +38,7 @@
                 <a href="#">Help</a><span class="iclasse"></span>
             </li>
             <li class="menu__mobile--itens">
-                <a href="#">Why EE></a><span class="iclasse"></span
-            </li>
+                <a href="#">Why EE</a><span class="iclasse"></span>
             <li class="menu__mobile--itens">
                 <a href="#">5G</a><span class="iclasse"></span>
             </li>
@@ -51,7 +48,9 @@
                 <a href="#">Register</a>
             </li>
         </ul>
+        <input class="input-busca" type="text" id="search" name="Search">
     </nav>
-    <script src="index.js"></script>
+<script src="index.js"></script>
 </body>
+
 </html>

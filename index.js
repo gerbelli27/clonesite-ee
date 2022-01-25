@@ -1,5 +1,5 @@
 const botaoMenu = document.querySelector('.cabecalho__icone-lateral')
-const menu = document.querySelector('.menu__mobile')
+const menu = document.querySelector('.menu_mobile')
 
 botaoMenu.addEventListener('click', () => {
     menu.classList.toggle('menu__mobile--ativo')
