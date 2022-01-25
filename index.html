@@ -9,14 +9,49 @@
 </head>
 <body>
 <header class="cabecalho">
-    
-    <button class="cabecalho__icone-lateral"><i></i></button>
-    <img src="./assets/img/logo.png" alt="Logo" class="cabecalho__logo">
-    <img class="buscar" src="./assets/img/search_white_36dp.svg" alt="Buscar">
-    <button class="botao-login">Log in</button>
-    
+    <button class="cabecalho__icone-lateral"><a href="#"><i></i></a></button>
+    <a class="cabecalho__logo" href="#"><img src="./assets/img/logo.jpg" alt="Logo"></a>
+    <a class="buscar" href="#"><img src="./assets/img/search_white_36dp.svg" alt="Buscar"></a>
+    <button class="botao-login"><a href="#">Log in</a></button>   
 </header>
 
-<h1 class="titulo--destaque">teste</h1>
+<div class="cabecalho__buscar">
+
+    <input class="input-busca" type="text" id="search" name="Search">
+    
+</div>
+
+
+
+    <nav class="menu__mobile">
+        <ul class="menu__mobile--lista">
+            <li class="menu__mobile--itens">
+                <a href="#">
+                    <img src="../clonesite-ee/assets/img/logo-verde.png" alt="">
+                </a>
+            </li>
+            <li class="menu__mobile--itens">
+                <a href="#">My EE</a><span class="iclasse"></span>
+            </li>
+            <li class="menu__mobile--itens">
+                <a href="#">Shop</a><span class="iclasse"></span>
+            </li>
+            <li class="menu__mobile--itens">
+                <a href="#">Help</a><span class="iclasse"></span>
+            </li>
+            <li class="menu__mobile--itens">
+                <a href="#">Why EE></a><span class="iclasse"></span
+            </li>
+            <li class="menu__mobile--itens">
+                <a href="#">5G</a><span class="iclasse"></span>
+            </li>
+            <li class="menu__mobile--itens--footer">
+                <a href="#">Log in</a>
+                <span class="menu__mobile--barrinha">|</span>
+                <a href="#">Register</a>
+            </li>
+        </ul>
+    </nav>
+    <script src="index.js"></script>
 </body>
 </html>
