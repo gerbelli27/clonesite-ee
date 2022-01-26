@@ -53,4 +53,5 @@
     width: 70px;
     height: 43px;
     border-radius: 5px;
+    box-sizing: border-box;
 }
