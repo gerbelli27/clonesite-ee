@@ -1,15 +1,7 @@
 @media screen and (min-width: 0px){
 .cabecalho{
-    background-color: var(--verde);
-    padding: 0.2rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    align-items: center;
-    
-    grid-template-areas: 
-    "menu logo busca login"
-    ;   
+   display: none;
+   align-items: center;
 } 
 .menu__mobile{
     background-color: var(--branco);
@@ -21,11 +13,15 @@
     transition: .20s;
 }
 
+.menu{
+    
+}
 
-.menu__mobile--lista{
-    display: flex;
-    flex-direction: column;
-    align-items: center;  
+
+.menu__mobile--lista-mobile{
+    position: absolute;
+    left: -150vw;
+    transition: .20s;
 }
 
 .menu__mobile--itens{
@@ -85,6 +81,15 @@
 
 
 @media screen and (min-width: 1200px){
+.menu__mobile--lista{
+     position:relative;  
+     left: 0; 
+    display: flex;
+    flex-direction: column;
+    }
+
+
+
 .cabecalho{
 background-color: var(--verde-escuro);
 padding: 0;
@@ -108,7 +113,7 @@ margin-right: 1rem;
 
 }
 
-.menu{
+.menu-desktop{
 
 display: flex;
 justify-content: space-between;
