@@ -1,6 +1,7 @@
 @import url(_variables.css);
 @import url(_reset.css);
-@import url(../../css/components/botoes.css);
+@import url(../components/botoes.css);
+@import url(../components/cards.css);
 
 body{
     background-color: var(--branco-fundo);
@@ -13,10 +14,19 @@ body{
     font-size: var(--tamanho-titulo);
     font-weight: var(--peso-titulo);
     font-family: var(--familia-corpo);
+    color: var(--cinza-footer);
 }
+
+.titulo--imagem{
+    font-size: var(--tamanho-titulo);
+    font-weight: 700;
+    font-family: var(--familia-corpo);
+    color: var(--preto);
+}
+
 .titulo--destaque{
     font-family: var(--familia-titulo-destaque);
-    color: #000000;
+    color: var(--verde);
     font-size: var(--tamanho-titulo-destaque);
     font-weight: var(--peso-titulo-destaque);
 

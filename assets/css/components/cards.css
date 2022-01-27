@@ -1,0 +1,19 @@
+.principal__imagem{
+    z-index: 0;
+    
+    background: url(../../img/img-destaque.png) center / cover no-repeat; 
+   
+
+    position: absolute;
+    overflow: hidden;
+
+    background-color: var(--branco);
+    
+
+    box-sizing: border-box;
+    height: 500px;
+    width: 800px;
+
+
+    
+}

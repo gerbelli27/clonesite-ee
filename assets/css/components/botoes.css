@@ -4,21 +4,20 @@
     font-family: inherit;
     font-weight: var(--peso-botao);
     color: var(--verde);
-    width: 100%;
+    width: 200;
     padding: 1rem 1rem;
     
     border-color: var(--verde);
     border-style: solid;
     border-radius: 50px;
-    border-width: 1.5px;
-
-    
+    border-width: 1.5px;  
 }
 
 .botao-verde{
     background-color: var(--verde);
     color: var(--branco);
     border-style: none;
+    width: 150px;
 }
 
 .botao-amarelo{
@@ -31,6 +30,7 @@
     background-color: transparent;
     color: var(--branco);
     border-color: var(--branco);
+    width: 200px;
 }
 
 .botao-quadrado{
