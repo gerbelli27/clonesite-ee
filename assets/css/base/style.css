@@ -98,12 +98,13 @@
         color: var(--verde);
         align-items: center;
         justify-content: space-between;
-        margin-right: 1rem;
+        margin-right: 0.75rem;
+        margin-left: 1rem;
         min-height: 49px;
         height: 49px;
         border-bottom: 1px solid var(--preto-transparente);
     }
-    
+
     .menu__mobile--itens:first-child{
         border-bottom: none;
         margin-bottom: 10px;
@@ -132,6 +133,7 @@
         font-size: .80rem;
         color: var(--verde);
         margin-top: 10px;
+        margin-left: 1rem;
     }
     
     .menu__mobile--barrinha{
@@ -162,6 +164,24 @@
         color: var(--branco);
     }
 
+    .link__store i::before{
+        content: "\e902";
+        font-size: 16px;
+        font-family: var(--familia-corpo);   
+    }
+
+    .link__check i::before{
+        content: "\e909";
+        font-size: 16px;
+        font-family: var(--familia-corpo);   
+    }
+
+    .link__contact i::before{
+        content: "\e903";
+        font-size: 16px;
+        font-family: var(--familia-corpo);   
+    }
+
     .cabecalho__links:hover{
         color: var(--amarelo);
     }
@@ -175,7 +195,7 @@
         margin-right: 7rem;
         padding-right: 1rem;
         padding-left: 1rem;
-        padding-top: 0.75rem;
+        padding-top: 0.50rem;
         padding-bottom: 0.25rem;
         background-color: var(--amarelo);
         color: #000000;
@@ -297,6 +317,10 @@
         border-right: 1px solid var(--preto-transparente);
         border-bottom: 0px;
         align-items: center;
+    }
+
+    .menu__mobile--itens:hover{
+        color: var(--amarelo);
     }
     
     .menu__mobile--itens:first-child{
