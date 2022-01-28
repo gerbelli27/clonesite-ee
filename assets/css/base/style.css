@@ -132,7 +132,7 @@
         top: 55px;
         left: 0;
         width: 345px;
-        height: 100vh;
+        height: calc(100vh - 80px);
         background-color: var(--branco);
     }
     
@@ -150,9 +150,16 @@
         font-weight: 700;
         font-size: 1.15rem;
     }
+
+    .img{
+        margin-top: 10px;
+         width: 100%;
+         height: auto;
+         object-fit: contain;
+    }
 }
 
-@media screen and (min-width: 1080px){
+@media screen and (min-width: 1200px){
     .botao-mostrar{
         z-index: 0;
         display: none;
@@ -164,31 +171,14 @@
     
     .cabecalho__links{
         font-family: sans-serif;
-        font-size: 13px;
+        font-size: 14px;
         margin-left: .25rem;
         padding-right: 1rem;
         padding-left: 1rem;
         padding-top: 1rem;
         padding-bottom: 1rem;
         color: var(--branco);
-    }
-
-    .link__store i::before{
-        content: "\e902";
-        font-size: 16px;
-        font-family: var(--familia-corpo);   
-    }
-
-    .link__check i::before{
-        content: "\e909";
-        font-size: 16px;
-        font-family: var(--familia-corpo);   
-    }
-
-    .link__contact i::before{
-        content: "\e903";
-        font-size: 16px;
-        font-family: var(--familia-corpo);   
+        box-sizing: border-box;
     }
 
     .cabecalho__links:hover{
@@ -202,6 +192,7 @@
         font-size: 13px;
         font-weight: var(--peso-botao);
         margin-right: 7rem;
+        margin-left: 1.75rem;
         padding-right: 1rem;
         padding-left: 1rem;
         padding-top: 0.50rem;
@@ -214,8 +205,9 @@
         background-color: var(--verde-escuro);
         padding: 0;
         display: flex;
-        justify-content: space-between;
-        height: 35px
+        justify-content: flex-end;
+        height: 35px;
+        box-sizing: border-box;
     }
     
     .cabecalho__icone-lateral{
@@ -224,10 +216,17 @@
 
     .cabecalho__login i::before{
         content: "|";
-        font-size: 18px;
+        font-size: 14px;
         color: var(--preto-transparente);
-        font-family: var(--familia-corpo);
-        
+        font-family: var(--familia-titulo-destaque); 
+    }
+
+    .cabecalho__login:hover{
+        color: var(--verde);
+    }
+
+    .cabecalho__register:hover{
+        color: var(--verde);
     }
     
     .destaque i::before{
@@ -276,9 +275,29 @@
         height: 50px;
     }
     
+    .link__store i::before{
+        content: "\e902";
+        font-size: 16px;
+        font-family: var(--familia-corpo);   
+    }
+
+    .link__check i::before{
+        content: "\e909";
+        font-size: 16px;
+        font-family: var(--familia-corpo);   
+    }
+
+    .link__contact i::before{
+        content: "\e903";
+        font-size: 16px;
+        font-family: var(--familia-corpo);   
+    }
+
     .links__destaque{
-        margin-left: 4.5rem;
+        margin-left: 0rem;
         box-sizing: border-box;
+        position: absolute;
+        left: 5%;;
     }
 
     .logo-verde{
@@ -364,5 +383,11 @@
         padding-bottom: 1rem;
         background-color: var(--verde);
         color: var(--branco);
+    }
+    .img{
+        margin-top: 10px;
+         width: 100vh;
+         height: auto;
+         object-fit: contain;
     }
 }

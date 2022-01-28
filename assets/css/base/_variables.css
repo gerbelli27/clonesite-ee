@@ -35,7 +35,7 @@
     --verde-escuro: #005A61;
     --amarelo: #FFE600;
     --branco: #FFFFFF;
-    --branco-fundo: #F6F4F0;
+    --branco-fundo: #f1f1f1;
     --cinza-footer: #3C3D41;
     --preto: #000000;
     --preto-transparente: #0000002c;
@@ -45,7 +45,7 @@
     --familia-titulo:'rubriksemibold' , sans-serif;
     --peso-titulo: 400;
     --peso-titulo-destaque: normal;
-    --peso-botao: 700;
+    --peso-botao: 900;
    
     --tamanho-corpo: 1rem;
     --tamanho-titulo: 1.75rem;
